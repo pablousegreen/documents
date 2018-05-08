@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TemplateTable>
+    <TemplateMainInfo groupId="12999">
+        <TemplateInfo groupID="12999" neTypeId="1007" ownerName="vp23cc7" templateId="13526" templateName="3G" templateType="1">
+            <FileElement>
+                <ObjectInfoElement allNeFlag="false">
+                    <NeElement allObjectFlag="true" neName="1007_All" neTypeAllFlag="true"/>
+                </ObjectInfoElement>
+                <CounterDetailInfo bNested="false" counterId="117460020" counterName="Iu mode maximum active PDP context" counterType="0" counterUnit="11" functionSubsetId="117440606"/>
+                <CounterDetailInfo bNested="false" counterId="117457219" counterName="Iu mode maximum attached users" counterType="0" counterUnit="11" functionSubsetId="117440578"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117456613]-[117456614]-([117456615]+[117456616]+[117456617]+[117456618]+[117456642]+[117456643]+[117456664]))/([117456613]))*{100}" counterId="134207642" counterName="3G Attach Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440572"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117456913]-[117456914]-([117456915]+[117456916]+[117456917]+[117456918]+[117456919]+[117456937]+[117456938]))/([117456913]))*{100}" counterId="134207641" counterName="3G Inter RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440575"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117456913]-[117456914]-([117456915]+[117456916]+[117456917]+[117456918]+[117456919]+[117456937]+[117456938]+[117456922]))/([117456913]))*{100}" counterId="134207600" counterName="3G Inter RAU Failure Rate without #111(Gr fail)" counterType="2" counterUnit="6" functionSubsetId="117440575"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117456813]-[117456814]-([117456815]+[117456816]+[117456832]+[117456849]))/([117456813]))*{100}" counterId="134207640" counterName="3G Intra RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440574"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117459413]-[117459414]-([117459423]+[117459428]+[117459429]+[117459430]+[117459431]+[117459432]+[117459441]+[117459484]))/([117459413]))*{100}" counterId="134207634" counterName="3G PDP Context Activation Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440600"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117456834]-[117456835]-([117456836]+[117456837]+[117456842]))/([117456834]))*{100}" counterId="134207639" counterName="3G Periodic RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440574"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117470414]+[117470415])/([117460023]+[117459414]))*{100}" counterId="134207637" counterName="3G PDP Context Cut Off" counterType="2" counterUnit="6" functionSubsetId="117440692"/>
+                <OtherElement period="1">
+                    <TimeElement busyCounterId="0" timeType="1"/>
+                    <DateElement dateType="5"/>
+                    <SortElement counterId="0" sortDirection="0" sortType="1"/>
+                    <HistoryObjElement bSelectedFlag="false"/>
+                </OtherElement>
+            </FileElement>
+        </TemplateInfo>
+    </TemplateMainInfo>
+</TemplateTable>

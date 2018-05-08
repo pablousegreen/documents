@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TemplateTable>
+    <TemplateMainInfo groupId="12999">
+        <TemplateInfo groupID="12999" neTypeId="1007" ownerName="vp23cc7" templateId="13436" templateName="DNS" templateType="1">
+            <FileElement>
+                <ObjectInfoElement allNeFlag="false">
+                    <NeElement allObjectFlag="true" neName="1007_All" neTypeAllFlag="true"/>
+                </ObjectInfoElement>
+                <CounterDetailInfo bNested="false" counterId="117452518" counterName="Success response from DNS Server" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452531" counterName="Success NAPTR response from DNS Server" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452532" counterName="Success NAPTR resolving request one more records in result from DNS Server" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452514" counterName="Resolving request result error" counterType="0" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452517" counterName="Resolving request DNS Server" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452524" counterName="Resolving request DNS Server knumbers" counterType="1" counterUnit="46" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452516" counterName="Resolving request CACHE hit" counterType="0" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452523" counterName="Resolving request CACHE hit knumbers" counterType="1" counterUnit="46" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452530" counterName="Resolving NAPTR request DNS Server" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452529" counterName="Resolving NAPTR request CACHE hit" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <CounterDetailInfo bNested="false" counterId="117452526" counterName="Resolving NAPTR request" counterType="1" counterUnit="11" functionSubsetId="117440531"/>
+                <OtherElement period="1">
+                    <TimeElement busyCounterId="0" timeType="1"/>
+                    <DateElement dateType="5"/>
+                    <SortElement counterId="0" sortDirection="0" sortType="1"/>
+                    <HistoryObjElement bSelectedFlag="false"/>
+                </OtherElement>
+            </FileElement>
+        </TemplateInfo>
+    </TemplateMainInfo>
+</TemplateTable>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TemplateTable>
+    <TemplateMainInfo groupId="12999">
+        <TemplateInfo groupID="12999" neTypeId="1007" ownerName="vp23cc7" templateId="13528" templateName="CPU_good" templateType="1">
+            <FileElement>
+                <ObjectInfoElement allNeFlag="false">
+                    <NeElement allObjectFlag="true" neName="1007_All" neTypeAllFlag="true"/>
+                </ObjectInfoElement>
+                <CounterDetailInfo bNested="false" counterId="117498313" counterName="Core average CPU occupation ratio" counterType="1" counterUnit="6" functionSubsetId="117496536"/>
+                <CounterDetailInfo bNested="false" counterId="117498312" counterName="Core maximum CPU occupation ratio" counterType="1" counterUnit="6" functionSubsetId="117496536"/>
+                <OtherElement period="2">
+                    <TimeElement busyCounterId="0" timeType="1"/>
+                    <DateElement dateType="5"/>
+                    <SortElement counterId="0" sortDirection="0" sortType="1"/>
+                    <HistoryObjElement bSelectedFlag="false"/>
+                </OtherElement>
+            </FileElement>
+        </TemplateInfo>
+    </TemplateMainInfo>
+</TemplateTable>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TemplateTable>
+    <TemplateMainInfo groupId="12999">
+        <TemplateInfo groupID="12999" neTypeId="1007" ownerName="vp23cc7" templateId="13527" templateName="4G" templateType="1">
+            <FileElement>
+                <ObjectInfoElement allNeFlag="false">
+                    <NeElement allObjectFlag="true" neName="1007_All" neTypeAllFlag="true"/>
+                </ObjectInfoElement>
+                <CounterDetailInfo bNested="false" counterFormula="(([117491128]+[117491129]+[117491130]+[117491131]+[117491132]+[117491133]+[117491134]+[117491135]+[117491136]+[117491137]+[117491138]+[117491140])/([117491127]))*{100}" counterId="134207609" counterName="Attach success rate" counterType="2" counterUnit="6" functionSubsetId="117490518"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117491129]+[117491128]+[117491130]+[117491131]+[117491132]+[117491133]+[117491134]+[117491135]+[117491136]+[117491137]+[117491138]+[117491139]+[117491140])/([117491127]))*{100}" counterId="134207653" counterName="Attach success rate without ESM failure" counterType="2" counterUnit="6" functionSubsetId="117490518"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117491129]+[117491128]+[117491130]+[117491131]+[117491132]+[117491133]+[117491134]+[117491135]+[117491136]+[117491137]+[117491138]+[117491139]+[117491141]+[117491140])/([117491127]))*{100}" counterId="134207628" counterName="Attach success rate without #19 and #111 Errors" counterType="2" counterUnit="6" functionSubsetId="117490518"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117491813])/([117491812]))*{100}" counterId="134207608" counterName="EPS Paging Success Rate" counterType="2" counterUnit="6" functionSubsetId="117490525"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117498163])/([117498162]))*{100}" counterId="134207657" counterName="SGs Location Update Success Rate" counterType="2" counterUnit="6" functionSubsetId="117496534"/>
+                <CounterDetailInfo bNested="false" counterId="117491954" counterName="S1 mode extended service request success rate" counterType="0" counterUnit="6" functionSubsetId="117490526"/>
+                <CounterDetailInfo bNested="false" counterId="117492014" counterName="Maximum attached users" counterType="0" counterUnit="11" functionSubsetId="117490527"/>
+                <CounterDetailInfo bNested="false" counterFormula="[117496114]+[117496144]" counterId="134207624" counterName="4G Maximum Bearer Number" counterType="2" counterUnit="11" functionSubsetId="117490568"/>
+                <OtherElement period="2">
+                    <TimeElement busyCounterId="0" timeType="1"/>
+                    <DateElement dateType="5"/>
+                    <SortElement counterId="0" sortDirection="0" sortType="1"/>
+                    <HistoryObjElement bSelectedFlag="false"/>
+                </OtherElement>
+            </FileElement>
+        </TemplateInfo>
+    </TemplateMainInfo>
+</TemplateTable>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TemplateTable>
+    <TemplateMainInfo groupId="12999">
+        <TemplateInfo groupID="12999" neTypeId="1007" ownerName="vp23cc7" templateId="13525" templateName="2G" templateType="1">
+            <FileElement>
+                <ObjectInfoElement allNeFlag="false">
+                    <NeElement allObjectFlag="true" neName="1007_All" neTypeAllFlag="true"/>
+                </ObjectInfoElement>
+                <CounterDetailInfo bNested="false" counterId="117458918" counterName="Gb mode maximum act PDP context" counterType="0" counterUnit="11" functionSubsetId="117440595"/>
+                <CounterDetailInfo bNested="false" counterId="117455021" counterName="Gb mode maximum attached users" counterType="0" counterUnit="11" functionSubsetId="117440556"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117454513]-[117454514]-([117454515]+[117454545]+[117454546]+[117454516]+[117454517]+[117454518]+[117454519]))/([117454513]))*{100}" counterId="134207650" counterName="2G Attach Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440551"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117454813]-[117454814]-([117454815]+[117454816]+[117454817]+[117454818]+[117454819]+[117454838]+[117454839]))/([117454813]))*{100}" counterId="134207649" counterName="2G Inter RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440554"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117454713]-[117454714]-([117454715]+[117454716]+[117454717]+[117454734]))/([117454713]))*{100}" counterId="134207648" counterName="2G Intra RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440553"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117458513]-[117458514]-([117458523]+[117458524]+[117458525]+[117458526]+[117458527]+[117458528]+[117458542]+[117458565]))/([117458513]))*{100}" counterId="134207646" counterName="2G PDP Context Activation Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440591"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117454736]-[117454737]-([117454738]+[117454739]+[117454740]+[117454745]))/([117454736]))*{100}" counterId="134207647" counterName="2G Periodic RAU Failure Rate" counterType="2" counterUnit="6" functionSubsetId="117440553"/>
+                <CounterDetailInfo bNested="false" counterFormula="(([117470314]+[117470316])/([117458916]+[117458514]))*{100}" counterId="134207645" counterName="2G PDP Context Cut Off" counterType="2" counterUnit="6" functionSubsetId="117440691"/>
+                <OtherElement period="3">
+                    <TimeElement busyCounterId="0" timeType="1"/>
+                    <DateElement dateType="5"/>
+                    <SortElement counterId="0" sortDirection="0" sortType="1"/>
+                    <HistoryObjElement bSelectedFlag="false"/>
+                </OtherElement>
+            </FileElement>
+        </TemplateInfo>
+    </TemplateMainInfo>
+</TemplateTable>
